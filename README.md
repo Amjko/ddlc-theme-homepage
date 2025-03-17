@@ -6,6 +6,7 @@
 - [Technologies Used](#-technologies-used)  
 - [Future Improvements](#-future-improvements)  
 - [Credits & Inspiration](#-credits-&-inspiration)  
+- [Disclaimer](#-disclaimer)
 - [Contact](#-contact)  
 
 # 🎀 DDLC-theme-homepage
