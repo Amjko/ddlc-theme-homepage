@@ -13,8 +13,11 @@
 
 ## ✨ Features
 ✅ **DDLC-Inspired UI** – Styled after the game's aesthetics
+
 ✅ **Animated Background** – Endless patterns of circles
+
 ✅ **In-game Error Popup** – Interactive menu screen
+
 ✅ **Necessary Info About Me** – The information for a self homepage
 
 ## 📺 Demo
