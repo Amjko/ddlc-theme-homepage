@@ -9,7 +9,7 @@
 - [Contact](#-contact)
 
 # 🎀 DDLC-theme-homepage
-> A [**Doki Doki Literature Club!**](https://ddlc.moe/)-inspired webpage featuring DDLC's iconic opening sequence, animated elements, and a log-style about-me section. Built using HTML, CSS, and JavaScript as part of my front-end learning journey and a requisite to CS50.
+ A [**Doki Doki Literature Club!**](https://ddlc.moe/)-inspired webpage featuring DDLC's iconic opening sequence, animated elements, and a log-style about-me section. Built using HTML, CSS, and JavaScript as part of my front-end learning journey and a requisite to CS50.
 
 ## ✨ Features
 ✅ **DDLC-Inspired UI** – Styled after the game's aesthetics
@@ -18,7 +18,7 @@
 ✅ **Necessary Info About Me** – The information for a self homepage
 
 ## 📺 Demo
-
+https://github.com/user-attachments/assets/7057dbaa-15d2-4b7d-bb7b-2d5e5fd1b4d9
 
 ## 🚀 Installation
 1. Clone the repository:
