@@ -106,7 +106,7 @@ export default function openingSequence(process = 0) {
             setTimeout(() => {
                 mainMenu.classList.add("slide");
                 // console.log("Process 7 worked");
-            }, 500);
+            }, 300);
         }, 500);
     };
 };
