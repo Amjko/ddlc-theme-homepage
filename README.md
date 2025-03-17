@@ -41,5 +41,9 @@ cd ddlc-theme-homepage
 - Inspired by **Doki Doki Literature Club!**  
 - UI/UX based on Ren'Py's visual novel aesthetics.  
 
+## ⚠️ Disclaimer 
+> [!IMPORTANT]
+> I do not take credit for the creation of the audios used, I simply downloaded them from [this site.](https://www.101soundboards.com/boards/32101-ddlc-soundboard)
+
 ## 📩 Contact
 📨 Want to share feedback? Open an [issue](https://github.com/Amjko/ddlc-theme-homepage/issues) or reach out via GitHub.  
