@@ -7,6 +7,7 @@
 - [Future Improvements](#-future-improvements)  
 - [Credits & Inspiration](#-credits-&-inspiration)  
 - [Disclaimer](#-disclaimer)
+- [Usage](#-usage)
 - [Contact](#-contact)  
 
 # 🎀 DDLC-theme-homepage
@@ -47,6 +48,10 @@ cd ddlc-theme-homepage
 > I do not take credit for the creation of the audios used, I simply downloaded them from [this site.](https://www.101soundboards.com/boards/32101-ddlc-soundboard)  
 > The GUI assets were recreated by me.  
 > The "Amjko Studios" logo that shows upon opening is neither a real logo nor a company. I simply had to place something in replacement of the "Team Salvato" logo.  
+
+## 🔃 Usage
+Feel free to check out the raw code and implement some of the functions I had created to your project if applicable.  
+> I apologize if it is unreadable, I am yet to improve my code for readability and accessability.
 
 ## 📩 Contact
 📨 Want to share feedback? Open an [issue](https://github.com/Amjko/ddlc-theme-homepage/issues) or reach out via GitHub.  
