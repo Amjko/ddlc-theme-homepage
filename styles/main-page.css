@@ -71,11 +71,11 @@
     /* transform: scale(2.5); */
     transform: translateY(0);
     transition: opacity 1.4s ease,
-                transform 1.5s ease-in-out;
+                transform 2s cubic-bezier(.6,0,.6,1);
 }
 
 .main-menu.slide {
-    transform: translateY(-60vh);
+    transform: translateY(-80vh);
 }
 
 /* SIDE NAVIGATION */
