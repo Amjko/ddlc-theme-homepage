@@ -42,4 +42,4 @@ cd ddlc-theme-homepage
 - UI/UX based on Ren'Py's visual novel aesthetics.
 
 ## 📩 Contact
-📨 Want to share feedback? Open an [issue]() or reach out via GitHub.
+📨 Want to share feedback? Open an [issue](https://github.com/Amjko/ddlc-theme-homepage/issues) or reach out via GitHub.
