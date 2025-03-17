@@ -56,9 +56,9 @@ cd ddlc-theme-homepage
 > **🔊 Audio:** I do not take credit for the creation of the audios used, I simply downloaded them from:  
 > [101Soundboards – DDLC Soundboard](https://www.101soundboards.com/boards/32101-ddlc-soundboard)  
 
-> **🎨 GUI Assets:** The GUI assets were recreated by me.  
-> **🏢 Fake Logo:** The **"Amjko Studios"** logo that shows upon opening is **not a real logo or a company**.  
-> I simply had to place something in replacement of the **Team Salvato** logo.  
+- **🎨 GUI Assets:** The GUI assets were recreated by me.  
+- **🏢 Fake Logo:** The **"Amjko Studios"** logo that shows upon opening is **not a real logo or a company**.  
+- I simply had to place something in replacement of the **Team Salvato** logo.  
 
 ---
 
