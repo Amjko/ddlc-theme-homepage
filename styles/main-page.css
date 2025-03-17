@@ -1,0 +1,219 @@
+/* SCREEN COVER */
+
+.screen-cover-black {
+    background-color: #f2f2f2;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: background-color 1s ease;
+}
+
+.screen-cover-black.white {
+    background-color: white !important;
+    transition: none;
+}
+
+.screen-cover-black div {
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: opacity 2s ease;
+}
+
+.message-1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+    transition: opacity 1s ease !important;
+}
+
+.logo img {
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.message-2 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: opacity 0.5s ease !important;
+}
+
+/* MAIN PAGE */
+
+@keyframes moveBackground {
+    from { background-position: 0px 0px, 100px 100px;         }
+    to   { background-position: -200px -200px, -100px -100px; }
+}
+
+.main-menu {
+    position: fixed;
+    display: none;
+    opacity: 0;
+    height: 400vh;
+    width: 100%;
+    background: radial-gradient(circle, rgba(255, 179, 191, 0.55) 27%, transparent 28%) 0 0 / 200px 200px,
+                radial-gradient(circle, rgba(255, 179, 191, 0.55) 27%, transparent 28%) 100px 100px / 200px 200px;
+    background-size: 200px 200px;
+    animation: moveBackground 7s linear infinite;
+    /* transform: scale(2.5); */
+    transform: translateY(0);
+    transition: opacity 1.4s ease,
+                transform 1.5s ease-in-out;
+}
+
+.main-menu.slide {
+    transform: translateY(-60vh);
+}
+
+/* SIDE NAVIGATION */
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 110vh;
+    z-index: -1;
+}
+
+.side-panel.show {
+    z-index: 30;
+    width: 30vw;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(-400px); animation-timing-function: linear;                     }
+    30%  { transform: translateY(-30px);  animation-timing-function: cubic-bezier(0, 0, 0.6, 1); }
+    45%  { transform: translateY(-120px); animation-timing-function: cubic-bezier(0.6, 0, 1, 1); }
+    60%  { transform: translateY(-30px);  animation-timing-function: cubic-bezier(0, 0, 0.6, 1); }
+    73%  { transform: translateY(-70px);  animation-timing-function: cubic-bezier(0.6, 0, 1, 1); }
+    83%  { transform: translateY(-30px);  animation-timing-function: cubic-bezier(0, 0, 0.6, 1); }
+    95%  { transform: translateY(-40px);  animation-timing-function: cubic-bezier(0.6, 0, 1, 1); }
+    100% { transform: translateY(-30px);  animation-timing-function: linear;                     }
+}
+
+.amjko-logo {
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    z-index: 50;
+}
+
+.amjko-logo-img {
+    visibility: hidden;
+    position: absolute;
+    top: 1vh;
+    left: 28%;
+    height: 45vh;
+    transform: translateY(-350px);
+}
+
+.amjko-logo-img.show {
+    visibility: visible;
+    z-index: 35;
+    animation: bounce 1.5s forwards;
+    /* transform: translateY(-30px); */
+}
+
+.amjko-logo-img.hide {
+    visibility: hidden;
+    z-index: -1;
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: fit-content;
+    top: 50vh;
+    left: 6vw;
+    opacity: 0;
+    z-index: 50 !important;
+    transition: opacity 1.4s ease;
+}
+
+.options, .special-option {
+    height: 2vw;
+    margin: 2vh 0;
+    transition: filter 0.1s ease;
+}
+
+.options:hover,
+.special-option:hover {
+    filter: brightness(1.2) opacity(0.8);
+}
+
+.options:active,
+.special-option:active {
+    filter: brightness(1.7) opacity(0.70);
+}
+
+.options.hidden {
+    z-index: -1;
+    visibility: hidden;
+}
+
+.new-game {
+    position: relative;
+    height: 4.1vh;
+}
+
+.about-me {
+    position: relative;
+    height: 4.2vh;
+    left: -0.7vw;
+}
+
+.tech-stack {
+    position: relative;
+    height: 4.2vh;
+    left: 0.1vw;
+}
+
+.my-projects {
+    position: relative;
+    height: 4.7vh;
+    left: 0.3vw;
+}
+
+.contact-me {
+    position: relative;
+    height: 4vh;
+    left: 0.5vw;
+}
+
+
+.side-nav-img-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 40;
+    transform: translateX(-600px);
+}
+
+.side-nav-img {
+    visibility: hidden;
+    position: absolute;
+    top: -5vh;
+    height: 105%;
+    z-index: 40;
+    transform: translateX(-650px);
+    transition: transform 0.6s cubic-bezier(0, 0, 0, 1);
+}
+
+.side-nav-img.show {
+    visibility: visible;
+    transform: translateX(-30vh);
+}

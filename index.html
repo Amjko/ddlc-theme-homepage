@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/homepage-sections.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/first-popup.css">
+    <link rel="stylesheet" href="styles/main-page.css">
+    <link rel="stylesheet" href="styles/error-popup.css">
+
+    <script type="module" src="scripts/script.js"></script>
+    <script type="module" src="scripts/audio.js"></script>
+    <script type="module" src="scripts/ddlc-intro.js"></script>
+    <script type="module" src="scripts/popup-error.js"></script>
+
+    <title>My Homepage</title>
+</head>
+<body>
+    <div class="screen-cover-error"></div>
+    <div class="error-popup">
+        <p class="error-message"></p>
+        <img class="button error-ok" src="assets/gui/menu/ok-button.svg">
+    </div>
+    <div class="intro">
+        <div class="popup" id="popup">
+            <p class="popup-header_1">Hello, I&apos;m <strong>Amiko</strong></p>
+            <p class="popup-header_2">To know more about me...</p>
+            <button class="popup-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M382-306.67 653.33-480 382-653.33v346.66ZM480-80q-82.33 0-155.33-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.67T80-480q0-83 31.5-156t85.83-127q54.34-54 127.34-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82.33-31.5 155.33-31.5 73-85.5 127.34Q709-143 636-111.5T480-80Zm0-66.67q139.33 0 236.33-97.33t97-236q0-139.33-97-236.33t-236.33-97q-138.67 0-236 97-97.33 97-97.33 236.33 0 138.67 97.33 236 97.33 97.33 236 97.33ZM480-480Z"/></svg>
+            </button>
+        </div>
+        <div class="screen-cover-black">
+            <div class="message-1">
+                <p>The following is inspired by Doki Doki Literature Club.</p>
+            </div>
+            <div class="logo">
+                <img alt="Amjko Studio" src="assets/gui/menu/amjkoStudio.svg">
+            </div>
+            <div class="message-2">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <main class="main-menu"></main>
+    <nav class="side-panel">
+        <div class="amjko-logo">
+            <img class="amjko-logo-img" src="assets/gui/menu/amjkoStudioLogo.svg">
+        </div>
+        <img class="button special-option exit" src="assets/gui/menu/exit.svg" alt="Exit">
+        <div class="menu-options">
+            <img class="button options new-game" src="assets/gui/menu/new-game.svg">
+            <img class="button options about-me" src="assets/gui/menu/about-me.svg">
+            <img class="button options tech-stack" src="assets/gui/menu/tech-stack.svg">
+            <img class="button options my-projects" src="assets/gui/menu/my-projects.svg">
+            <img class="button options contact-me" src="assets/gui/menu/contact-me.svg">
+        </div>
+        <div class="side-nav-img-container">
+        </div>
+        <img class="side-nav-img" src="assets/gui/menu/side-nav.svg">
+    </nav>
+    <div class="black-background"></div>
+    <div class="about-me-section">
+        <div class="header">
+            <p class="name">An exception has occurred.</p>
+        </div>
+        <div class="first-paragraph">
+            <div class="header-2">
+                <p>While running game code:</p>
+            </div>
+            <div class="description">
+                <p class="log-desc indented indent-1"><span class="hightlight">File "about-me.json", line 24,</span> in script</p>
+            </div>
+            <div class="header-2">
+                <p>Full traceback:</p>
+            </div>
+            <div class="description">
+                <p class="log-desc indented indent-1"><span class="hightlight">File "about-me.json", line 24,</span> in script</p>
+                <div class="log-desc indented code-block">
+                    <div class="open-tag">
+                        <p>return &#123;</p>
+                    </div>
+                    <div class="inside-tag">
+                        <div class="left-side">
+                            <p>"Name":</p>
+                            <p>"Aliases":</p>
+                            <p>"Education":</p>
+                            <p>"Interests":</p>
+                            <p>"Hobbies":</p>
+                            <p>"Tech Stack":</p>
+                            <p>"Languages":</p>
+                            <p>"Curent Task":</p>
+                            <p>"Status":</p>
+                        </div>
+                        <div class="right-side">
+                            <p>["Ian Pretend I. Name"],</p>
+                            <p>["Amjko", "Amiko", "amiko2234"]</p>
+                            <p>["Senior High School student", "CS50's Introduction to CS"],</p>
+                            <p>["Cybersecurity", "Programming", "Web Development"],</p>
+                            <p>["Realistic Art", "Programming", "Playing Games", "Listening to Music"]</p>
+                            <p>["Inkscape", "Canva", "Krita", "Adobe After Effects"]</p>
+                            <p>["C", "Python", "Javascript", "SQLite"],</p>
+                            <p>["Learning and building projects"],</p>
+                            <p>["Still debugging life..."]</p>
+                        </div>
+                    </div>
+                    <div class="close-tag">
+                        <p>&#125;&#59;</p>
+                    </div>
+                </div>
+                <p class="indented last-description">UnexpectedResultError: Too many ideas, not enough time.</p>
+                <div class="user-device-info-section">
+                    <p class="user-device-info info-1"></p>
+                    <p class="user-device-info info-2"></p>
+                    <p class="user-device-info info-3"></p>
+                </div>
+            </div>
+        </div>
+        <div class="error-options">
+            <p class="error-open">Open</p>
+            <p class="error-copy">Copy</p>
+            <p class="error-quit">Quit</p>
+        </div>
+    </div>
+    <div class="tech-stack-section">
+        <img src="assets/homepage/tech-stack/c.svg" alt="C">
+        <img src="assets/homepage/tech-stack/python.svg" alt="Python">
+        <img src="assets/homepage/tech-stack/sqlite.svg" alt="SQLite">
+        <img src="assets/homepage/tech-stack/html.svg" alt="HTML">
+        <img src="assets/homepage/tech-stack/css.svg" alt="CSS">
+        <img src="assets/homepage/tech-stack/javascript.svg" alt="Javascript">
+    </div>
+    <div class="my-projects-section">
+        
+    </div>
+    <div class="contact-me-section">
+        <a href="https://github.com/Amjko" target="_blank" >
+            <img class="github" src="assets/homepage/contact-me/github-mark.svg" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/in/ian-agustin/" target="_blank" >
+            <img class="linkedin" src="assets/homepage/contact-me/linkedin.svg" alt="Linkedin">
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjDbPKCFqdkHDrdnkLRLFmFVqMCvSqlZQBSnMNkbwDHwmLcfXNSHlPngPRbBSkNVflPLSF" target="_blank" >
+            <img class="gmail" src="assets/homepage/contact-me/gmail.svg" alt="Gmail">
+        </a>
+    </div>
+</body>
+</html>

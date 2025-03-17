@@ -1,0 +1,15 @@
+* {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+img {
+    image-rendering: auto;
+}

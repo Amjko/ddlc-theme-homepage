@@ -1,0 +1,61 @@
+/* ERROR POPUP */
+
+@font-face {
+    font-family: Aller;
+    src: url('../assets/fonts/Aller/other/Aller_Rg.ttf') format('truetype');
+}
+
+.error-popup {
+    background-color: #ffe5f5;
+    visibility: hidden;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border: 0.5vw solid #fcc6e4;
+    padding: 4.8vh 3.7vw;
+}
+
+.error-popup.show {
+    visibility: visible;
+    z-index: 100;
+}
+
+.error-message {
+    font-family: Aller !important;
+    font-size: 1.5vw;
+}
+
+.error-ok {
+    height: 4vh;
+    width: auto;
+    margin: 5vh 0 1.5vh 0;
+    transition: filter 0.15s ease;
+}
+
+.error-ok:hover {
+    filter: brightness(1.3) opacity(0.75);
+}
+
+.error-ok:active {
+    filter: brightness(1.7) opacity(0.70);
+}
+
+.screen-cover-error {
+    background-color: rgba(255, 255, 255, 0.6);
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: background-color 1s ease;
+}
+
+.screen-cover-error.show {
+    visibility: visible;
+    z-index: 90;
+}

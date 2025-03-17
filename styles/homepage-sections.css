@@ -1,0 +1,216 @@
+/* EXIT BUTTON */
+
+.exit {
+    visibility: hidden;
+    position: absolute;
+    height: 7vh;
+    top: 5vh;
+    left: 5.5vw;
+    z-index: -1;
+    margin: 0;
+}
+
+.exit.show {
+    visibility: visible !important;
+    z-index: 50 !important;
+}
+
+/* ABOUT ME */
+
+@font-face {
+    font-family: dejavu-sans;
+    src: url("../assets/fonts/DejaVuSans/DejaVuSans.ttf") format("truetype");
+}
+
+.about-me-section {
+    visibility: hidden;
+    color: #464646;
+    background-color: #d0d0d0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    right: 80px;
+    z-index: -1;
+    overflow-y: scroll;
+    height: 500vh;
+    padding: 0 137px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.about-me-section p {
+    font-family: dejavu-sans, Arial;
+}
+
+.black-background {
+    visibility: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.black-background.show {
+    visibility: visible;
+    z-index: 40;
+}
+
+.about-me-section.show {
+    visibility: visible;
+    z-index: 50;
+    opacity: 2;
+}
+
+.header .name {
+    font-size: 37.5px;
+    letter-spacing: -0.5px;
+    margin: 27px 0 23px 0;
+}
+
+.header-2 p {
+    letter-spacing: +0.6px;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.description {
+    margin: 0 0 16px 0;
+}
+
+.log-desc {
+    font-size: 15px;
+}
+
+.indented.indent-1 {
+    position: relative;
+    left: 22px;
+}
+
+.indented.code-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.inside-tag {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.inside-tag .left-side {
+    margin: 0 0 0 45px;
+}
+
+.open-tag, .close-tag {
+    position: relative;
+    left: 32px;
+}
+
+.last-description {
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.about-me-section .hightlight {
+    color: #405060;
+}
+
+.user-device-info-section {
+    margin: 20px 0 10px 10px;
+}
+
+.user-device-info {
+    font-size: 15px;
+}
+
+.error-options {
+    display: grid;
+    grid-template-columns: 100px 90px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 10px 0;
+}
+
+.error-options p {
+    font-size: 25px;
+    color: #405060;
+    text-align: left;
+    width: fit-content;
+}
+
+.error-quit {
+    margin-left: auto;
+}
+
+.error-options p:hover {
+    cursor: pointer;
+}
+
+/* TECH STACK */
+
+.tech-stack-section {
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10vh;
+    position: absolute;
+    top: 28vh;
+    left: 36vw;
+    right: 3vw;
+    z-index: -1;
+}
+
+.tech-stack-section img {
+    height: 17vh;
+}
+
+.tech-stack-section.show {
+    visibility: visible;
+    z-index: 50;
+}
+
+/* MY PROJECTS */
+
+/* CONTACT ME */
+
+.contact-me-section {
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8.5vw;
+    position: absolute;
+    top: 40vh;
+    left: 36vw;
+    right: 8vw;
+    z-index: -1;
+}
+
+.contact-me-section a {
+    width: fit-content;
+}
+
+.github {
+    height: 20vh;
+    /* margin: 0 20px; */
+}
+
+.linkedin {
+    height: 20vh;
+    /* margin: 0 20px; */
+}
+
+.gmail {
+    height: 19vh;
+    /* margin: 0 15px; */
+}
+
+.contact-me-section.show {
+    visibility: visible;
+    z-index: 50;
+}
