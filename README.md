@@ -10,6 +10,8 @@
 - [Usage](#-usage)
 - [Contact](#-contact)  
 
+---
+
 # 🎀 DDLC-theme-homepage
  A [**Doki Doki Literature Club!**](https://ddlc.moe/)-inspired webpage featuring DDLC's iconic opening sequence, animated elements, and a log-style about-me section. Built using HTML, CSS, and JavaScript as part of my front-end learning journey and a requisite to CS50.  
 
@@ -22,6 +24,8 @@
 ## 📺 Demo
 https://github.com/user-attachments/assets/7057dbaa-15d2-4b7d-bb7b-2d5e5fd1b4d9
 
+---
+
 ## 🚀 Installation
 1. Clone the repository:  
 ```sh
@@ -30,6 +34,8 @@ cd ddlc-theme-homepage
 ```
 2. Open `index.html` in your browser.  
 > It should work for most modern browsers.  
+
+---
 
 ## 🔧 Technologies Used
 - **HTML & CSS** – For structure and styling  
@@ -43,15 +49,25 @@ cd ddlc-theme-homepage
 - Inspired by **Doki Doki Literature Club!**  
 - UI/UX based on Ren'Py's visual novel aesthetics.  
 
+---
+
 ## ⚠️ Disclaimer 
 > [!IMPORTANT]
-> I do not take credit for the creation of the audios used, I simply downloaded them from [this site.](https://www.101soundboards.com/boards/32101-ddlc-soundboard)  
-> The GUI assets were recreated by me.  
-> The "Amjko Studios" logo that shows upon opening is neither a real logo nor a company. I simply had to place something in replacement of the "Team Salvato" logo.  
+> **🔊 Audio:** I do not take credit for the creation of the audios used, I simply downloaded them from:  
+> [101Soundboards – DDLC Soundboard](https://www.101soundboards.com/boards/32101-ddlc-soundboard)  
+
+> **🎨 GUI Assets:** The GUI assets were recreated by me.  
+> **🏢 Fake Logo:** The **"Amjko Studios"** logo that shows upon opening is **not a real logo or a company**.  
+> I simply had to place something in replacement of the **Team Salvato** logo.  
+
+---
 
 ## 🔃 Usage
-Feel free to check out the raw code and implement some of the functions I had created to your project if applicable.  
-> I apologize if it is unreadable, I am yet to improve my code for readability and accessability.
+- Feel free to check out the **raw code** and implement some of the functions I had created to your project if applicable.  
+- **📝 Code Readability:** I am still improving my **code structure and accessibility**—apologies for any messy sections!  
+
+---
 
 ## 📩 Contact
-📨 Want to share feedback? Open an [issue](https://github.com/Amjko/ddlc-theme-homepage/issues) or reach out via GitHub.  
+💬 Want to share feedback?  
+- Open an [**issue**](https://github.com/Amjko/ddlc-theme-homepage/issues) on GitHub.  
