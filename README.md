@@ -5,8 +5,8 @@
 - [Installation](#-installation)  
 - [Technologies Used](#-technologies-used)  
 - [Future Improvements](#-future-improvements)  
-- [Credits & Inspiration](#-credits-&-inspiration)  
-- [Disclaimer](#-disclaimer)
+- [Credits & Inspiration](#-credits--inspiration)  
+- [Disclaimer](#%EF%B8%8F-disclaimer)
 - [Usage](#-usage)
 - [Contact](#-contact)  
 
