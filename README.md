@@ -53,21 +53,19 @@ cd ddlc-theme-homepage
 
 ## ⚠️ Disclaimer 
 > [!IMPORTANT]
-> **🔊 Audio:** I do not take credit for the creation of the audios used, I simply downloaded them from:  
+> I do not take credit for the creation of the audios used, I simply downloaded them from:  
 > [101Soundboards – DDLC Soundboard](https://www.101soundboards.com/boards/32101-ddlc-soundboard)  
 
 - The GUI assets were recreated by me.  
-- The **"Amjko Studios"** logo that shows upon opening is **not a real logo or a company**.  
-- I simply had to place something in replacement of the **Team Salvato** logo.  
+- The **"Amjko Studios"** logo that shows upon opening is **not a real logo or a company**. I simply had to place something in replacement of the **Team Salvato** logo.  
 
 ---
 
 ## 🔃 Usage
 - Feel free to check out the **raw code** and implement some of the functions I had created to your project if applicable.  
-- **📝 Code Readability:** I am still improving my **code structure and accessibility**—apologies for any messy sections!  
+- I am still improving my **code structure and accessibility**—apologies for any messy sections!  
 
 ---
 
 ## 📩 Contact
-💬 Want to share feedback?  
-- Open an [**issue**](https://github.com/Amjko/ddlc-theme-homepage/issues) on GitHub.  
+💬 Want to share feedback? Open an [**issue**](https://github.com/Amjko/ddlc-theme-homepage/issues) on GitHub.  
